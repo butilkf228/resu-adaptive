@@ -1,0 +1,27 @@
+ul,
+p,
+h1,
+h2,
+h3,
+a {
+    list-style: none;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+}
